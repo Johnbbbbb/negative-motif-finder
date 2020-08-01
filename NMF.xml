@@ -7,7 +7,7 @@
 		ln -s '$FASTA' input1.tabular && 
         ln -s '$positives' input2.csv &&
 		ln -s '$SBF' input3.csv &&
-        Rscript '$__tool_directory__/NMF-working-7-4-2020.R'
+        Rscript '$__tool_directory__/NMF.R'
     ]]></command>
     <inputs>
 		<param format="csv" name="SBF" type="data" label="Substrate Background Frequency"/>
